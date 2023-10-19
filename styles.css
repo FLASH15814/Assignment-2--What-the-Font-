@@ -1,0 +1,254 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(Images/szabo-viktor-IExOV9fFQBM-unsplash.jpg);
+    width : 1500px ;
+}
+nav {
+    position : sticky ;
+    background-color: white;
+    display: block;
+    height: 90px;
+    width : 1910px ;
+    margin-top : -32px ;
+    border-radius: 22px;
+    background-color: rgb(21, 20, 20);
+}
+nav h1.heading{
+    position: absolute;
+    color : rgb(197, 197, 197);
+    font-family: 'Mohave','Trirong';
+    font-size : 30px ;
+    margin-top : 40px ;
+    margin-left : 100px ;
+}
+nav li{
+    color :white;
+    margin-top : -300px ;
+    display: inline-block;
+    font-size : 26px ;
+}
+nav li a.home {
+    
+    font-size: 30px ;
+    color : white;
+    margin-top : 20px;
+   position : absolute;
+   margin-top : 30px ;
+    margin-left : 880px;
+    color: inherit;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+}
+a.home:hover {
+    transition : all .2s ease-in-out;
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+section {
+    
+    margin-left : 700px;
+    padding-top : 10px ;
+    padding-bottom : 50px ;
+
+}
+
+section.section1{
+    margin-top : 20px;
+    font-family: 'Dancing Script';
+    background-image: url(Images/pexels-bess-hamiti-36487.jpg);
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    width: 500px ;
+    font-size : 26px ;
+    color : rgb(109, 93, 93);
+    padding-left : 40px;
+    padding-top : 30px ;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+section.section2{
+    font-family:'Cedarville Cursive';
+    margin-top : 50px ;
+    margin-bottom: 50px ;
+    background-image: url(Images/sasha-kaunas-kTCZuDtYgzc-unsplash.jpg);
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    width: 500px ;
+    font-size : 26px ;
+    color : rgb(156, 148, 148);
+    padding-left : 40px;
+    padding-top : 30px ;
+    cursor: pointer;
+}
+
+.neighbour{
+
+    position :absolute;
+    width :50%;
+    
+}
+img{
+    display: block;
+    width : 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius :5px;
+}
+.band{
+    height : 350px ;
+    width : 500px ;
+}
+.overlay{
+    position:absolute;
+    margin-top : -350px;
+    height: 350px;
+    width :500px ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius : 5px;
+    opacity: 0.5;
+  transition: .5s ease;
+  background-color: #000000;
+}
+.neighbour:hover .overlay{
+opacity : 1;
+margin-left : -250px;
+}
+a.text1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-left:200px;
+    margin-top : 170px ;
+    text-decoration: none;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  p{
+    margin-left : 770px;
+    font-family: Dosis;
+    font-size : 30px ;
+    color : white;
+    text-decoration: rgb(82, 217, 224) solid underline;
+    text-decoration-thickness: 2px;
+    text-decoration-skip: ink;
+  }
+  img.cover{
+    margin-top : 20px ;
+    margin-left : 690px ;
+    width: 500px;
+    height: 500px;
+    border-radius : 7px ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.255s;
+}
+  img.cover:hover{
+    color :black;
+  }
+section.section3{
+    font-family: Norican;
+    font-weight: bolder;
+    background-image: url(Images/efe-kurnaz-RnCPiXixooY-unsplash.jpg);
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    width: 500px ;
+    font-size : 26px ;
+    color : #dfdfdf;
+    padding-left : 40px;
+    padding-top : 30px ;
+    cursor: pointer;
+}
+section.section4{
+    font-family : 'Permanent Marker';
+    margin-top : 50px ;
+    background-image: url(Images/camille-couvez-H5PnIYI_1I0-unsplash.jpg);
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    width: 500px ;
+    font-size : 26px ;
+    color : rgb(120, 148, 161);
+    padding-left : 40px;
+    padding-top : 30px ;
+    cursor: pointer;
+}
+section.section5{
+    font-family: Borel;
+    margin-top: 50px;
+    background-image: url(Images/iceland-2111811_1280.jpg);
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    width: 500px ;
+    font-size : 26px ;
+    color : rgb(109, 93, 93);
+    padding-left : 40px;
+    padding-top : 30px ;
+    cursor: pointer;
+}
+section.section6{
+    font-family:'Alegreya Sans SC' ;
+    margin-top: 50px;
+    background-image: url(Images/ocean-3605547_1280.jpg);
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    width: 500px ;
+    font-size : 26px ;
+    color : rgb(173, 156, 156);
+    padding-left : 40px;
+    padding-top : 30px ;
+    cursor: pointer;
+}
+section.section7{
+    font-family: 'Allan';
+    margin-top : 50px ;
+    background-image: url(Images/szabo-viktor-IExOV9fFQBM-unsplash.jpg);
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    width: 500px ;
+    font-size : 26px ;
+    color : rgb(196, 119, 119);
+    padding-left : 40px;
+    padding-top : 30px ;
+    cursor: pointer;
+}
+section.section8{
+    font-family: 'Dekko';
+    margin-top : 50px ;
+    background-image: url(Images/thunderstorm-3440450_1280.jpg);
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    width: 500px ;
+    font-size : 26px ;
+    color : rgb(145, 142, 142);
+    padding-left : 40px;
+    padding-top : 30px ;
+    cursor: pointer;
+}
+section.section9{
+    font-family: 'La Belle Aurore';
+    margin-top: 50px ;
+    background-image: url(Images/moon-2762111_1280.jpg);
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    width: 500px ;
+    font-size : 26px ;
+    color : rgb(109, 93, 93);
+    padding-left : 40px;
+    padding-top : 30px ;
+    cursor: pointer;
+}
+.section1:hover,.section2:hover,.section4:hover,.section5:hover,.section6:hover,.section8:hover,.section9:hover{
+    color: white;
+}
+.section7:hover{
+    color:black;
+}
+footer{
+    font-style : italic ;
+    color:black;
+    margin-top : 30px ;
+    margin-left : 850px ;
+}
