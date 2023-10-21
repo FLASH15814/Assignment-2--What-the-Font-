@@ -68,7 +68,7 @@ section.section1{
     cursor: pointer;
 }
 section.section2{
-    font-family:'Cedarville Cursive';
+    font-family:'Permanent marker';
     margin-top : 50px ;
     margin-bottom: 50px ;
     background-image: url(Images/sasha-kaunas-kTCZuDtYgzc-unsplash.jpg);
@@ -114,6 +114,21 @@ img{
 opacity : 1;
 margin-left : -250px;
 }
+color{
+    color:rgb(146, 175, 146);
+    font-family:'Times New Roman', Times, serifs  ;
+    font-style: italic;
+}
+color2{
+    color:rgb(255, 0, 149);
+    font-family:'Norican', Times, serifs  ;
+    font-style: italic;
+}
+color3{
+    color:rgb(0, 208, 255);
+    font-family:'Norican', Times, serifs  ;
+    font-style: italic;
+}
 a.text1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
@@ -133,9 +148,7 @@ a.text1 {
     font-family: Dosis;
     font-size : 30px ;
     color : white;
-    text-decoration: rgb(82, 217, 224) solid underline;
-    text-decoration-thickness: 2px;
-    text-decoration-skip: ink;
+    
   }
   img.cover{
     margin-top : 20px ;
@@ -228,7 +241,7 @@ section.section8{
     cursor: pointer;
 }
 section.section9{
-    font-family: 'La Belle Aurore';
+    font-family: 'Permanent marker';
     margin-top: 50px ;
     background-image: url(Images/moon-2762111_1280.jpg);
     box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
